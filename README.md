@@ -45,11 +45,11 @@ This is a Rust reimplementation of the original C version, maintaining all secur
 
 4. The binary will be located in the `target/release` directory.
 
-## Usage
+### Usage
 
-    ```bash
+```bash
     ./target/release/SecurePassGen-rs.exe 16
-    ```
+```
 
 This will generate a password of specified length (minimum 12 characters) that includes:
 * At least one uppercase letter
@@ -95,7 +95,7 @@ Password requirements can be adjusted by modifying the `PasswordRequirements` st
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Original work Copyright (c) 2024 Tetsuo
+Original work Copyright (c) 2024 Tetsuo<BR>
 Modified work Copyright (c) 2024 Teach2Breach
 
 ## Acknowledgments
